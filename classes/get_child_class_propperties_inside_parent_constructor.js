@@ -1,10 +1,11 @@
 class Cat {
   constructor(child) {
     this.child = child;
+    this.sound = child.sound;
   }
 
   speak() {
-    console.log(this.child.sound);
+    console.log(this.sound);
   }
 }
 
