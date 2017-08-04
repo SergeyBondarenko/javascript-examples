@@ -20,3 +20,8 @@ class Tiger extends Cat {
 
 const t = new Tiger('Artem');
 t.speak();
+
+console.log('Prototype chain:');
+console.log('1. t:', Object.getPrototypeOf(t));
+console.log('2. Tiger:', Object.getPrototypeOf(Tiger));
+console.log('3. Cat:', Object.getPrototypeOf(Cat));
